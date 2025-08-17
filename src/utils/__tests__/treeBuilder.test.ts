@@ -117,6 +117,7 @@ describe('treeBuilder', () => {
         searchText: 'Energy',
         energySensors: false,
         criticalStatus: false,
+        itemType: '',
       };
       const result = filterTree(mockTree, filters);
 
@@ -130,6 +131,7 @@ describe('treeBuilder', () => {
         searchText: '',
         energySensors: true,
         criticalStatus: false,
+        itemType: '',
       };
       const result = filterTree(mockTree, filters);
 
@@ -143,6 +145,7 @@ describe('treeBuilder', () => {
         searchText: '',
         energySensors: false,
         criticalStatus: true,
+        itemType: '',
       };
       const result = filterTree(mockTree, filters);
 
@@ -156,6 +159,7 @@ describe('treeBuilder', () => {
         searchText: 'Energy',
         energySensors: false,
         criticalStatus: false,
+        itemType: '',
       };
       const result = filterTree(mockTree, filters);
 

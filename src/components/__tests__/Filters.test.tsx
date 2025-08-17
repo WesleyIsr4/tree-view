@@ -7,6 +7,7 @@ const mockFilters: FilterState = {
   searchText: '',
   energySensors: false,
   criticalStatus: false,
+  itemType: '',
 };
 
 describe('Filters', () => {
@@ -56,6 +57,7 @@ describe('Filters', () => {
       searchText: 'teste',
       energySensors: true,
       criticalStatus: false,
+      itemType: '',
     };
 
     render(
@@ -72,6 +74,7 @@ describe('Filters', () => {
       searchText: 'teste',
       energySensors: true,
       criticalStatus: true,
+      itemType: '',
     });
   });
 
@@ -81,6 +84,7 @@ describe('Filters', () => {
       searchText: '',
       energySensors: true,
       criticalStatus: false,
+      itemType: '',
     };
 
     render(
