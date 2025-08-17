@@ -31,6 +31,7 @@ Uma aplicação React moderna e robusta para visualizar hierarquias de ativos em
 - **Vitest** - Testes unitários rápidos
 - **Playwright** - Testes e2e robustos
 - **ESLint + Prettier** - Qualidade e formatação de código
+
 - **Husky + commitlint** - Hooks de git e validação de commits
 
 ### **DevOps & Deploy**
@@ -57,6 +58,7 @@ src/
 ├── hooks/               # Hooks customizados
 ├── services/            # Serviços de API e externos
 ├── types/               # Definições TypeScript
+
 ├── utils/               # Utilitários e helpers
 └── test/                # Configurações de teste
 ```
@@ -65,6 +67,7 @@ src/
 
 - **Feature-based Architecture**: Organização por funcionalidades
 - **Component Composition**: Componentes pequenos e reutilizáveis
+
 - **Custom Hooks**: Lógica de negócio isolada e testável
 - **Type Safety**: TypeScript em toda a aplicação
 
@@ -136,10 +139,12 @@ pnpm test:watch   # Testes em modo watch
 pnpm test:e2e     # Testes end-to-end
 pnpm test:e2e:ui  # Interface visual dos testes e2e
 
+
 # Qualidade de Código
 pnpm lint         # Verificação de linting
 pnpm lint:fix     # Correção automática de linting
 pnpm format       # Formatação de código
+
 pnpm type-check   # Verificação de tipos TypeScript
 ```
 
@@ -156,11 +161,13 @@ pnpm type-check   # Verificação de tipos TypeScript
 - **Framework**: Playwright
 - **Navegadores**: Chromium e Firefox (desktop)
 - **Execução**: `pnpm test:e2e`
+
 - **Relatórios**: HTML interativo em `playwright-report/`
 
 ### **Qualidade de Código**
 
 - **ESLint**: Regras de qualidade e boas práticas
+
 - **Prettier**: Formatação automática de código
 - **TypeScript**: Verificação de tipos em tempo de compilação
 - **Husky**: Hooks de git para validação automática
@@ -207,12 +214,14 @@ A aplicação consome a API fake-api.tractian.com:
 docker build -t tree-view-app .
 
 # Execução do container
+
 docker run -p 3000:3000 tree-view-app
 ```
 
 ### **GitHub Actions**
 
 - **CI/CD Automatizado**: Testes e build em cada push
+
 - **Deploy Automático**: Deploy em ambiente de staging
 - **Qualidade de Código**: Validação automática de linting e tipos
 
