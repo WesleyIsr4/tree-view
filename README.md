@@ -2,6 +2,12 @@
 
 Uma aplicação React moderna e robusta para visualizar hierarquias de ativos empresariais com arquitetura enterprise-grade.
 
+## 🎬 Demonstração
+
+![Demonstração da Navegação](src/assets/flow.gif)
+
+_Demonstração da interface mostrando a seleção de empresas e navegação pela plataforma_
+
 ## ✨ Características Principais
 
 - **🏢 Seleção Multi-Empresa**: Navegue entre diferentes empresas com contexto persistente
